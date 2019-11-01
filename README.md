@@ -2,29 +2,29 @@
 
 A ZType inspired word typing game.
 
-# ZType
+## ZType
 https://zty.pe/
 
-# words.txt
+## words.txt
 https://gist.github.com/deekayen/4148741
 
-# Status
+## Status
 
 This code is a mess of me trying things out.
 
-# NOTES from playing ZType
+## NOTES from playing ZType
 
 * Letters disappear immediately.
 
-# TODO
+## TODO
 
 [ ] animate all movements (ex: turning the player ship).
 [ ] score system (hits/misses ratio).
 [ ] sounds
 
-# CHANGELOG
+## CHANGELOG
 
-## 2019-11-01 15:11:51
+### 2019-11-01 15:11:51
 
 * git init and put up on github.
 * wait for explosions and animations to finish before changing state.
@@ -33,11 +33,11 @@ This code is a mess of me trying things out.
 * separate enemy text and ship so the ship can be rotated independently.
 * display a ship that points at the letters.
 
-## 2019-10-30 11:33:49
+### 2019-10-30 11:33:49
 
 * Very basics working. Need end game conditions.
 
-## 2019-10-31 08:11:31
+### 2019-10-31 08:11:31
 
 * Changed to state stack and they work.
 * Added update stack for gameplay to provide an intro.
