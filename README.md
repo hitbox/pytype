@@ -18,20 +18,11 @@ This code is a mess of me trying things out.
 
 ## TODO
 
-[ ] animate all movements (ex: turning the player ship).
-[ ] score system (hits/misses ratio).
-[ ] sounds
+* [ ] animate all movements (ex: turning the player ship).
+* [ ] score system (hits/misses ratio).
+* [ ] sounds
 
 ## CHANGELOG
-
-### 2019-11-01 15:11:51
-
-* git init and put up on github.
-* wait for explosions and animations to finish before changing state.
-* fix bullets aren't disappearing after colliding.
-* fire bullets at the letters.
-* separate enemy text and ship so the ship can be rotated independently.
-* display a ship that points at the letters.
 
 ### 2019-10-30 11:33:49
 
@@ -44,3 +35,12 @@ This code is a mess of me trying things out.
 * Added win/lose state.
 * Debugging supports drawing now.
 * Only Word sprites inside the space can be locked.
+
+### 2019-11-01 15:11:51
+
+* git init and put up on github.
+* wait for explosions and animations to finish before changing state.
+* fix bullets aren't disappearing after colliding.
+* fire bullets at the letters.
+* separate enemy text and ship so the ship can be rotated independently.
+* display a ship that points at the letters.
