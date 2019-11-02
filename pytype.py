@@ -626,7 +626,9 @@ class Gameplay(State):
                 angle = abs_angle_to((x,y), self.player.position)
                 enemyshipsprite.angle = math.degrees(angle)
                 enemyshipsprite.position = (x + math.cos(angle) * 1, y + math.sin(-angle) * 1)
-                enemyshipsprite.textsprite.rect.midtop = enemyshipsprite.position
+                x, y = enemyshipsprite.position
+                enemyshipsprite.textsprite.rect.midtop = (
+                    x, y + enemyshipsprite.textsprite.rect.height / 2)
                 # check player collision
                 if (cooldowns['player-hit'] <= 0
                         and enemyshipsprite.rect.colliderect(self.player.rect)):
