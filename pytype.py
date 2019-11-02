@@ -435,7 +435,7 @@ class Gameplay(State):
             surf.blit(sprite.image, rect)
         healthpip = pg.Rect(0, self.space.bottom - 30, 20, 20)
         for i in range(self.player.health):
-            healthpip.x = 10 + healthpip.width * i * 2
+            healthpip.x = 10 + healthpip.width * i * 1.5
             pg.draw.rect(surf, (200,10,10), healthpip)
 
     def enter(self):
